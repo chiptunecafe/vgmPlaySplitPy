@@ -6,6 +6,9 @@ Script auto detects and .vgz/.vgm files and auto renders channel separated .wav 
 **WINDOWS ONLY**
 for linux you need to change the path from \ to /
 
+# Issues
+Does not work properly for multimask .vgms (YM2608,YM2603,YM2151+PCM etc.)
+
 # usage
 - Download [vgmPlay](https://github.com/vgmrips/vgmplay) and all files into a directory.
 - run vgmSplit.py in same directory.
