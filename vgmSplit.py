@@ -5,7 +5,7 @@ import pdb
 
 VGM_PLAY_PATH = "VGMPlay.exe"
 CONFIG_PATH = "VGMPlay.ini"
-CHANNEL_COUNT_OVERRIDE = 12
+CHANNEL_COUNT_OVERRIDE = 0
 system = "X1-010" #had this implemented differently but too lazy to make it nice
 
 def generateBaseMask(channelCount):#Base mask for generating config mask
