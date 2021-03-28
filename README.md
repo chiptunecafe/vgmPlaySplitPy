@@ -7,10 +7,11 @@ Script auto detects and .vgz/.vgm files and auto renders channel separated .wav 
 for linux you need to change the path from \ to /
 
 # usage
-Download [vgmPlay](https://github.com/vgmrips/vgmplay) and all files into a directory.
-run vgmSplit.py in same directory.
+- Download [vgmPlay](https://github.com/vgmrips/vgmplay) and all files into a directory.
+- run vgmSplit.py in same directory.
 
-Ensure that `VGM_PLAY_PATH` matches the vgmplay executable
-Ensure that `CONFIG_PATH` matches the vgmplay executable
-Change `system` to match the system your are targeting in VGMPlay.ini or vgmSystemChannels.py
-`CHANNEL_COUNT_OVERRIDE` will force only the first `CHANNEL_COUNT_OVERRIDE` number of channels are renderd.
+## options
+- Ensure that `VGM_PLAY_PATH` matches the vgmplay executable
+- Ensure that `CONFIG_PATH` matches the vgmplay executable
+- Change `system` to match the system your are targeting in VGMPlay.ini or vgmSystemChannels.py
+- `CHANNEL_COUNT_OVERRIDE` will force only the first `CHANNEL_COUNT_OVERRIDE` number of channels are renderd.
